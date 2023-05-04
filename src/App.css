@@ -1,38 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Patrick+Hand&display=swap");
+
 .App {
-  text-align: center;
+  font-family: "Patrick Hand", cursive;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+body {
+  font-family: "Patrick Hand", cursive;
+  background: linear-gradient(
+    109.6deg,
+    rgb(36, 45, 57) 11.2%,
+    rgb(16, 37, 60) 51.2%,
+    rgb(0, 0, 0) 98.6%
+  );
+  background-size: cover;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.below {
   color: white;
+  text-align: center;
+  margin-right: 425px;
+  margin-top: -43px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#git {
+  text-decoration: none;
 }

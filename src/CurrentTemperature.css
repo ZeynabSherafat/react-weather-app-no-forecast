@@ -1,0 +1,18 @@
+.units {
+  color: white;
+  font-size: 18px;
+}
+
+.current-temperature {
+  text-align: center;
+  font-size: 100px;
+  font-weight: 400;
+  color: white;
+  margin-right: -7px;
+}
+.current-temperature a {
+  color: white;
+}
+.current-temperature a:hover {
+  opacity: 75%;
+}
