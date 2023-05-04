@@ -9,7 +9,7 @@ export default function App() {
         <Weather />
         <footer className="below">
           <a
-            href="https://github.com/ZeynabSherafat/react-weather-app"
+            href="https://github.com/ZeynabSherafat/react-weather-app-no-forecast"
             target="_blank"
             rel="noreferrer"
             id="git"
